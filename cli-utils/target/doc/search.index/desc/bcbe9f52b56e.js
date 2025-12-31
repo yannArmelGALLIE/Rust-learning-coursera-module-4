@@ -1,0 +1,1 @@
+rd_("CnThis is a library that provides utilities for command-line \xe2\x80\xa6CmThis function reads a line from stdin and returns it as a \xe2\x80\xa6")
