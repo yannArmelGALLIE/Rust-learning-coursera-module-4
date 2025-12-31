@@ -1,0 +1,2 @@
+[workspace]
+members = ["cli-utils", "my_library", "project", "user-input"]

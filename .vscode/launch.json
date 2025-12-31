@@ -1,0 +1,16 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug executable 'user-input'",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/target/debug/user-input",
+            "args": [],
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
