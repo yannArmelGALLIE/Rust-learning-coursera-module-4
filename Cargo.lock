@@ -3,6 +3,10 @@
 version = 4
 
 [[package]]
+name = "cli-utils"
+version = "0.1.0"
+
+[[package]]
 name = "my_library"
 version = "0.1.0"
 

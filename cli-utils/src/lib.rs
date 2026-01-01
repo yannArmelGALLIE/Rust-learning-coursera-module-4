@@ -9,10 +9,13 @@
 //! The `read_stdin` function will panic if it fails to reada line with a maessage "Failed to read input line"
 use std::io::{BufRead, BufReader};
 
+pub mod colors;
+
 /// This function reads a line from stdin and returns it as a String
 /// It will panic if it fails to read a line with a message "Failed to read input line".
 /// # Examples:
 /// ```
+/// use cli_utils::read_stdin;
 /// let input = read_stdin();
 /// ```
 pub fn read_stdin() -> String {
